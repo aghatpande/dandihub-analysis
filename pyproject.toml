@@ -7,4 +7,5 @@ requires-python = ">=3.10"
 dependencies = [
     "dandi>=0.69.3",
     "jupyterlab>=4.4.5",
+    "pynwb>=3.1.0",
 ]

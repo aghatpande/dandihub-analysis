@@ -604,12 +604,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "dandi" },
     { name = "jupyterlab" },
+    { name = "pynwb" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "dandi", specifier = ">=0.69.3" },
     { name = "jupyterlab", specifier = ">=4.4.5" },
+    { name = "pynwb", specifier = ">=3.1.0" },
 ]
 
 [[package]]
