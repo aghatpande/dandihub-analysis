@@ -1,6 +1,4 @@
 ---
-
-````
 markdown
 # Connecting NBFiddle to a Local JupyterLab Server
 
