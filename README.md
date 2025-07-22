@@ -1,3 +1,60 @@
+````
+## 🔁 Reproducing This Environment on Another Machine
+
+To set up this project on a different machine with the exact same dependencies:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aghatpande/dandihub-analysis.git
+cd dandihub-analysis
+````
+
+### 2. Create and activate the virtual environment
+
+```bash
+uv venv .venv
+source .venv/bin/activate
+```
+
+> 💡 If `uv` is not installed, install it with:
+>
+> ```bash
+> pip install uv
+> ```
+
+### 3. Install all locked dependencies
+
+```bash
+uv install
+```
+
+This reads from `pyproject.toml` and `uv.lock` to install **exactly the same versions** used in development.
+
+### 4. Launch JupyterLab
+
+```bash
+jupyter lab
+```
+
+Or, for NBFiddle access:
+
+```bash
+jupyter lab \
+  --ServerApp.allow_origin='https://nbfiddle.app' \
+  --no-browser \
+  --port=8888
+```
+
+---
+
+## ✅ Notes
+
+* All dependencies are version-locked in `uv.lock` for full reproducibility
+* `.venv` is intentionally excluded from Git; recreate it using the steps above
+
+```
+
 ---
 # Connecting NBFiddle to a Local JupyterLab Server
 
