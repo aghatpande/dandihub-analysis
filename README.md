@@ -1,5 +1,4 @@
 ---
-markdown
 # Connecting NBFiddle to a Local JupyterLab Server
 
 This guide explains how to connect a remote frontend like [NBFiddle](https://nbfiddle.app) to a local JupyterLab server running in this project’s virtual environment (`.venv`).
