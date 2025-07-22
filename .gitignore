@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# VSCode settings (optional, but common)
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local runtime files from Jupyter
+**/.ipynb_checkpoints/
+**/.DS_Store
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Jupyter runtime logs
+.jupyter/lab/workspaces/
+
+# DANDI client cache (if used)
+.dandi/
+
+# UV artifacts (safe to track .toml and .lock only)
+# NOTE: Do not ignore pyproject.toml or uv.lock!
